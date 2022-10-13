@@ -1,0 +1,183 @@
+
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#mainDiv #part_1{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(#20BEA9,#278EA6);
+}
+
+#mainDiv #part_1 .header{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#mainDiv #part_1 .header h2{
+    color: white;
+    font-family: sans-serif;
+}
+
+#mainDiv #part_1 .header ul{
+    display: flex;
+    transition: 0.1s;
+}
+
+#mainDiv #part_1 .header ul li{
+    list-style: none;
+    padding-left: 50px;
+    transition: 0.1s;
+}
+#mainDiv #part_1 .header ul li a{
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    color: white;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+#mainDiv #part_1 .header ul li a:hover{
+    border-bottom: 3px solid white;
+}
+
+#mainDiv .content{
+    display: flex;
+    justify-content: center;
+}
+
+#mainDiv .content #col{
+    width: 1336px;
+    height: 700px;
+    position: absolute;
+    top:100px;
+    left: 290px;
+    display: flex;
+}
+
+#mainDiv .content #col #text_b{
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+#mainDiv .content #col #text_b h1{
+    font-size: 40px;
+    font-weight: lighter;
+    position: absolute;
+    top: 100px;
+}
+
+#mainDiv .content #col #text_b h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+#mainDiv .content #col #text_b p{
+    font-family: 'Poppins', sans-serif;
+    color: #DEDFE2;
+    position: absolute;
+    top: 200px;
+}
+
+#mainDiv .content #col #text_b button{
+    padding: 1em 3em 1em 3em;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #1FC1A9;
+    background-color: white;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    position: absolute;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+    top: 280px;
+    transition: ease-in-out 0.5s;
+}
+#mainDiv .content #col #text_b button:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 6px rgba(0,0,0,0.07), 
+    0 5px 14px rgba(0,0,0,0.07),
+    0 12px 28px rgba(0,0,0,0.07), 
+    0 28px 60px rgba(0,0,0,0.07);
+    transition: 0.5s;
+}
+
+#mainDiv .content #col #text_b #btn2 button{
+    display: flex;
+    align-items: center;
+    color: white;
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 220px;
+}
+
+#mainDiv .content #col #text_b #btn2 button i{
+    padding-right: 10px;
+}
+
+#mainDiv .content #col img{
+    position: absolute;
+    top: -25px;
+    right: 0px;
+}
+
+#mainDiv .boxes{
+    width: 100%;
+    /* background-color: black; */
+    height: 400px;
+    position: absolute;
+    top: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainDiv .boxes #box1,#box2,#box3,#box4{
+    width: 300px;
+    margin-top: 20px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    height: 355px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+#mainDiv .boxes i{
+    margin-top: 30px;
+    position: absolute;
+}
+
+#mainDiv .boxes #box1 h2{
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+#mainDiv .boxes #box1 p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+
+#mainDiv .boxes #box1:hover{
+    background: #5579FA;
+    color: white;
+}
